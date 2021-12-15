@@ -11,3 +11,9 @@ def hello_world():
 @app.route("/toto")
 def toto():
     return "<p>Hello, TOTO!</p>"
+
+
+@app.route("/hello/<username>")
+def say_hello_to_user(username):
+    # show the user profile for that user
+    return f"User {escape(username)}"
