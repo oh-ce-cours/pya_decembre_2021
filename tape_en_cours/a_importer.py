@@ -11,4 +11,4 @@ def code_factory():
 
 
 print("dans a importer")
-code = code_factory()
+code_metier = code_factory()
