@@ -1,9 +1,10 @@
 from multiprocessing import Pool
-import time
+import time, os
 
 
 def f(x):
     print(x)
+    print(os.getppid())
     time.sleep(20)
     return x * x
 
