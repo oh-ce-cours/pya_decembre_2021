@@ -4,7 +4,7 @@ source : https://docs.python.org/2/howto/descriptor.html#properties
 """
 
 
-class Property(object):
+class Property:
     "Emulate PyProperty_Type() in Objects/descrobject.c"
 
     def __init__(self, getter=None, setter=None):
