@@ -5,6 +5,7 @@ class CodeMetier:
 
 
 def code_factory():
+    print("dans code factory")
     code_metier = CodeMetier("toto")
     return code_metier
 
