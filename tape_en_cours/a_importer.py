@@ -4,4 +4,4 @@ class CodeMetier:
         self.a = a
 
 
-code_metier = CodeMetier()
+code_metier = CodeMetier("toto")
