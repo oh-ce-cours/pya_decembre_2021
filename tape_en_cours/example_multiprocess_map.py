@@ -4,7 +4,7 @@ import time, os
 
 def f(x):
     print(x)
-    print(os.getpid())
+    print(os.getppid(), os.getpid())
     time.sleep(20)
     return x * x
 
