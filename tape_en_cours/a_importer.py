@@ -7,3 +7,6 @@ class CodeMetier:
 def code_factory():
     code_metier = CodeMetier("toto")
     return code_metier
+
+
+code = code_factory()
