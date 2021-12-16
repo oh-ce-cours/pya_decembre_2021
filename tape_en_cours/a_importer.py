@@ -9,4 +9,5 @@ def code_factory():
     return code_metier
 
 
+print("dans a importer")
 code = code_factory()
