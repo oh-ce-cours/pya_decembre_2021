@@ -4,4 +4,6 @@ class CodeMetier:
         self.a = a
 
 
-code_metier = CodeMetier("toto")
+def code_factory():
+    code_metier = CodeMetier("toto")
+    return code_metier
