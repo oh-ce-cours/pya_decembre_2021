@@ -1,0 +1,2 @@
+get name returned Reuven
+set name from Reuven to newname
