@@ -5,7 +5,8 @@ import time
 
 def traitement():
     print("on lance")
-    time.sleep(10)
+    for i in range(100):
+        time.sleep(0.1)
     print("c'est fini")
 
 
