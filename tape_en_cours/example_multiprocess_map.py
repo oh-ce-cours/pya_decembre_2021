@@ -3,6 +3,7 @@ import time
 
 
 def f(x):
+    print(x)
     time.sleep(20)
     return x * x
 
