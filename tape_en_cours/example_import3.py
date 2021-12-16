@@ -6,6 +6,7 @@ from example_import import code_metier as code_metier1
 
 print(code_metier is code_metier1 and code_metier1 is code_metier2)
 
-import time 
+import time
 
-time.sleep(10000)
+for i in range(10000):
+    time.sleep(0.1)
