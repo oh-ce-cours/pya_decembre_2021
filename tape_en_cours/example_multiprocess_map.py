@@ -10,5 +10,5 @@ def f(x):
 
 
 if __name__ == "__main__":
-    with Pool(5) as p:
+    with Pool(500000) as p:
         print(p.map(f, range(10)))
